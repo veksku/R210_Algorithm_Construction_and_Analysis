@@ -8,8 +8,9 @@
 using namespace std;
 
 struct compare{
-  bool operator()(const pair<int, int> &p1, const pair<int, int> &p2)
+  bool operator()(const pair<int, int> &p1, const pair<int, int> &p2){
     return p1.first > p2.first;
+  }
 };
 
 struct Graph{
