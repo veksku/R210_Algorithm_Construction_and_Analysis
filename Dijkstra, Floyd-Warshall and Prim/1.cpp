@@ -68,8 +68,7 @@ void dijkstra(Graph &g, int u){
   cout << u << " -> " << 4 << " = " << g.distances[4] << "\n";
 }
 
-int main ()
-{
+int main (){
   Graph g;
 
   initialize_graph(g, 9);
