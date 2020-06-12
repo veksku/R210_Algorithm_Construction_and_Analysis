@@ -1,0 +1,19 @@
+s = (y2-y1)*x + (x1-x2)*y + (x2*y1 - x1*y2)
+--------------------------------------------------------
+x1,x2,y1,y2 koordinate tacaka koje pripadaju pravoj
+x, y koordinate tacke kojoj proveravamo orijentaciju u odnosu na pravu
+s < 0 sa leve strane
+s > 0 sa desne strane
+s = 0 kolinearne
+
+
+val = (q.y - p.y)*(r.x - q.x) - (q.x - p.x)*(r.y - q.y)
+if(val != 0) //colinear
+(val > 0) ? clock: counterclock
+-------------------------------
+orijentacija triju tacaka p, q, r
+
+
+abs((x1*(y2 - y3) + x2*(y3 - y1) +  x3*(y1 - y2)) / 2.0)
+--------------------------------------------------------------
+P trougla zadatog koordinatama (x1, y1), (x2, y2), (x3, y3)
