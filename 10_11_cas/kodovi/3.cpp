@@ -9,7 +9,7 @@ void compute_preffix_table(string &pattern, vector<int> &preffix_table, int n){
 
     while(i < n){
         if(pattern[j] == pattern[i]){
-            preffix_table[i] = j++;
+            preffix_table[i] = ++j;
             i++;
         }
         else{
