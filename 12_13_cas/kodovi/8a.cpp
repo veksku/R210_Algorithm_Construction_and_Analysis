@@ -45,12 +45,8 @@ void three_colinear(vector<Point>& points){
 
     for(int i=0; i<n; i++){
         swap(points[0], points[i]);
-		p_0 = points[0];
-		sort(points.begin() + 1, points.end(), compare);
-        for(int i = 0; i<n; i++){
-		    cout << points[i].x << " " << points[i].y << "; ";
-	    }
-        cout << endl;
+	p_0 = points[0];
+	sort(points.begin() + 1, points.end(), compare);
     }
 }
 
